@@ -1,0 +1,31 @@
+.audit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 50px;
+
+    &_wrapper {
+        width: fit-content;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+    &_content {
+        border: 1px solid black;
+        width: 100%;
+        height: 500px;
+    }
+
+    &_button {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+    }
+}

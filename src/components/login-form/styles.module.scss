@@ -1,0 +1,15 @@
+.form {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    &_field {
+        padding-bottom: 20px;
+    }
+}

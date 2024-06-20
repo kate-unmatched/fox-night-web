@@ -1,0 +1,17 @@
+.user {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+
+    &_avatar {
+        border-radius: 100%;
+        padding: 5px;
+        width: 60px;
+    }
+
+    &_text {
+        margin: auto;
+        align-content: center;
+    }
+}
